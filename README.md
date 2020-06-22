@@ -15,8 +15,9 @@ There are three components for this project:
     * Merges the two datasets
     * Cleans the data
     * Stores it in a SQLite database
-
-2. **ML Pipeline:** Then use a machine learning pipeline to raed data from the SQLite database to create and save a multi-output supervised learning model. In the Python script, **train_classifier.py**, you will find the machine learning pipeline that:
+ * you will fined details about crating the ETL Pipeline in [this jupyter notebook](). 
+ 
+ 2. **ML Pipeline:** Then use a machine learning pipeline to raed data from the SQLite database to create and save a multi-output supervised learning model. In the Python script, **train_classifier.py**, you will find the machine learning pipeline that:
 
     * Loads data from the SQLite database
     * Splits the dataset into training and test sets
@@ -40,8 +41,9 @@ Below you can find the file structure of the project:
       |- disaster_categories.csv  # data to process 
       |- disaster_messages.csv  # data to process
       |- process_data.py
-      |- InsertDatabaseName.db   # database to save clean data to
-
+      |- ETL Pipeline Preparation.ipynb (details about crating the ETL Pipeline)
+      |- Database.db   # database 
+      
       - models
       |- train_classifier.py
       |- classifier.pkl  # saved model 
