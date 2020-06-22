@@ -9,15 +9,15 @@ In this repo, I am going to be analyzing thousands of real messages of disaster 
 
 There are three components for this project: 
 
-1. **ETL Pipeline:** First I will repair the data with an ETL pipeline that process messages and category data from CSV file and load them into SQLite database. In the Python script, **process_data.py**, you will find the data cleaning pipeline that:
+1. **ETL Pipeline:** First I will repair the data with an ETL pipeline that process messages and category data from CSV file and load them into SQLite database. In the Python script, **[process_data.py](https://github.com/A2Amir/Analyze-Disaster-Data/blob/master/data/process_data.py)**, you will find the data cleaning pipeline that:
 
     * Loads the messages and categories datasets
     * Merges the two datasets
     * Cleans the data
     * Stores it in a SQLite database
- * you will fined details about crating the ETL Pipeline in [this jupyter notebook](). 
+ * you will fined details about crating the ETL Pipeline in [this jupyter notebook](https://github.com/A2Amir/Analyze-Disaster-Data/blob/master/data/ETL%20Pipeline%20Preparation.ipynb). 
  
- 2. **ML Pipeline:** Then use a machine learning pipeline to raed data from the SQLite database to create and save a multi-output supervised learning model. In the Python script, **train_classifier.py**, you will find the machine learning pipeline that:
+ 2. **ML Pipeline:** Then use a machine learning pipeline to raed data from the SQLite database to create and save a multi-output supervised learning model. In the Python script, **[train_classifier.py]()**, you will find the machine learning pipeline that:
 
     * Loads data from the SQLite database
     * Splits the dataset into training and test sets
