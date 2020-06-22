@@ -50,3 +50,23 @@ Below you can find the file structure of the project:
 
       - README.md
 </code></pre>
+
+# 4. Instructions for running the Python scripts
+
+Run the following commands in the root directory of each file to set up your database and model
+
+  * To run ETL pipeline that cleans data and stores in database: 
+  
+               python process_data.py --f1 disaster_messages.csv --f2 disaster_categories.csv --o Database.db
+    
+  * To run ML pipeline that trains classifier and saves it: 
+  
+
+  * Run the following command in the app's directory to run your web app: 
+  
+               python run.py
+               go to http://0.0.0.0:3001/
+
+
+         
+         
