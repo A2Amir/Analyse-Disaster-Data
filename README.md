@@ -3,7 +3,7 @@
 During a disaster, typically we will get millions and millions of communications either direct or via social media right at the time when disaster response organizations have the least capacity to filter and then pull out the messages which are the most important. Machine learning is critical to helping different organizations understand which messages are relevant to them, and which messages to prioritize.  
 
 
-In this repo, I am going to be analyzing thousands of real messages of disaster data from [Figure Eight](), which contains pre-labeled tweets and text messages from real-life disasters, to create a model for an API that classifies disaster messages.
+In this repo, I am going to be analyzing thousands of real messages of disaster data from [Figure Eight](https://appen.com/resources/datasets/), which contains pre-labeled tweets and text messages from real-life disasters, to create a model for an API that classifies disaster messages.
 
 # 2. Project Components
 
