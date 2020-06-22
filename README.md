@@ -1,11 +1,11 @@
-# Introduction
+# 1. Introduction
 
 During a disaster, typically we will get millions and millions of communications either direct or via social media right at the time when disaster response organizations have the least capacity to filter and then pull out the messages which are the most important. Machine learning is critical to helping different organizations understand which messages are relevant to them, and which messages to prioritize.  
 
 
 In this repo, I am going to be analyzing thousands of real messages of disaster data from [Figure Eight](), which contains pre-labeled tweets and text messages from real-life disasters, to create a model for an API that classifies disaster messages.
 
-# Project Components
+# 2. Project Components
 
 There are three components for this project: 
 
@@ -27,7 +27,7 @@ There are three components for this project:
 
 3. **Flask Web App:** I will create a web application, which use the trained model(the pickle file) to classify incoming messages where an emergency worker can input a new message and get classification results in several categories.
 
-# Structure 
+# 3. Structure 
 Below you can find the file structure of the project:
 <pre><code class="lang-txt">
       - app
