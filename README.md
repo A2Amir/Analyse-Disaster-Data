@@ -17,7 +17,7 @@ There are three components for this project:
     * Stores it in a SQLite database
  * you will fined details about crating the ETL Pipeline in [this jupyter notebook](https://github.com/A2Amir/Analyze-Disaster-Data/blob/master/data/ETL%20Pipeline%20Preparation.ipynb). 
  
- 2. **ML Pipeline:** Then use a machine learning pipeline to raed data from the SQLite database to create and save a multi-output supervised learning model. In the Python script, **[train_classifier.py]()**, you will find the machine learning pipeline that:
+ 2. **ML Pipeline:** Then use a machine learning pipeline to raed data from the SQLite database to create and save a multi-output supervised learning model. In the Python script, **[train_classifier.py](https://github.com/A2Amir/Analyze-Disaster-Data/blob/master/models/train_classifier.py)**, you will find the machine learning pipeline that:
 
     * Loads data from the SQLite database
     * Splits the dataset into training and test sets
