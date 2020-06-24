@@ -46,6 +46,7 @@ Below you can find the file structure of the project:
       
       - models
       |- train_classifier.py
+      |- ML Pipeline Preparation.ipynb (details about crating the ML Pipeline)
       |- classifier.pkl  # saved model 
 
       - README.md
@@ -61,7 +62,8 @@ Run the following commands in the root directory of each file to set up your dat
     
   * To run ML pipeline that trains classifier and saves it: 
   
-
+               python train_classifier.py --f1  ../data/DisasterResponse.db --o  classifier.pkl
+               
   * Run the following command in the app's directory to run your web app: 
   
                python run.py
