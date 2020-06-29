@@ -26,7 +26,7 @@ There are three components for this project:
     * Outputs results on the test set
     * Exports the final model as a pickle file
 
-3. **Flask Web App:** I will create a web application, which use the trained model(the pickle file) to classify incoming messages where an emergency worker can input a new message and get classification results in several categories.
+3. **Flask Web App:** I will create a web application, which use the trained model(the joblib file) to classify incoming messages where an emergency worker can input a new message and get classification results in several categories.
 
 # 3. Structure 
 Below you can find the file structure of the project:
