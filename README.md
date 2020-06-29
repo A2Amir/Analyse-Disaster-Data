@@ -5,6 +5,11 @@ During a disaster, typically we will get millions and millions of communications
 
 In this repo, I am going to be analyzing thousands of real messages of disaster data from [Figure Eight](https://appen.com/resources/datasets/), which contains pre-labeled tweets and text messages from real-life disasters, to create a model for an API that classifies disaster messages.
 
+To get a betther understand about creating an ETL Pipeline, NLP Pipelines and  Machine Learning Pipeline go through these repositories respectively:
+* 1. [ETL Data Pipelines](https://github.com/A2Amir/ETL-Data-Pipelines)
+* 2. [NLP Pipelines](https://github.com/A2Amir/NLP-and-Pipelines)
+* 3. [Machine Learning Pipelines](https://github.com/A2Amir/Machine-Learning-Pipelines)
+
 # 2. Project Components
 
 There are three components for this project: 
