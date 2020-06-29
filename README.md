@@ -10,6 +10,19 @@ To get a betther understand about creating an ETL Pipeline, NLP Pipelines and  M
 * 2. [NLP Pipelines](https://github.com/A2Amir/NLP-and-Pipelines)
 * 3. [Machine Learning Pipelines](https://github.com/A2Amir/Machine-Learning-Pipelines)
 
+
+### Link to Disasters Data Dashboard:
+
+
+
+<table align="center">
+	<tr>
+		<td align="center" width="9999">
+			<h2>https://covidspreadout.herokuapp.com</h2>
+		</td>
+	</tr>
+</table>
+
 # 2. Project Components
 
 There are three components for this project: 
@@ -53,6 +66,7 @@ Below you can find the file structure of the project:
       
       - models
       |- train_classifier.py
+      |- utils.py 
       |- ML Pipeline Preparation.ipynb (details about crating the ML Pipeline)
       |- classifier.joblib  # saved model 
       
@@ -67,11 +81,11 @@ Run the following commands in the root directory of each file to set up your dat
 
   * To run ETL pipeline that cleans data and stores in database: 
   
-               python process_data.py --f1 disaster_messages.csv --f2 disaster_categories.csv --o Database.db
+               python process_data.py  --f1 disaster_messages.csv  --f2 disaster_categories.csv  --o Database.db
     
   * To run ML pipeline that trains classifier and saves it: 
   
-               python train_classifier.py --f1  ../data/DisasterResponse.db --o  classifier.joblib
+               python train_classifier.py  --f1 ../data/DisasterResponse.db  --o classifier.joblib
                
   * Run the following command in the app's directory to run your web app: 
   
