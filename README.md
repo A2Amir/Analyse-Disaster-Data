@@ -31,11 +31,13 @@ There are three components for this project:
 # 3. Structure 
 Below you can find the file structure of the project:
 <pre><code class="lang-txt">
-      - app
+
+      - disaster_app
       | - template
       | |- master.html  # main page of web app
       | |- go.html  # classification result page of web app
       |- run.py  # Flask file that runs app
+      |- routes.py # Flask route file
 
       - data
       |- disaster_categories.csv  # data to process 
@@ -47,9 +49,11 @@ Below you can find the file structure of the project:
       - models
       |- train_classifier.py
       |- ML Pipeline Preparation.ipynb (details about crating the ML Pipeline)
-      |- classifier.pkl  # saved model 
-
+      |- classifier.joblib  # saved model 
+      
       - README.md
+      - app.py 
+      
 </code></pre>
 
 # 4. Instructions for running the Python scripts
@@ -62,11 +66,11 @@ Run the following commands in the root directory of each file to set up your dat
     
   * To run ML pipeline that trains classifier and saves it: 
   
-               python train_classifier.py --f1  ../data/DisasterResponse.db --o  classifier.pkl
+               python train_classifier.py --f1  ../data/DisasterResponse.db --o  classifier.joblib
                
   * Run the following command in the app's directory to run your web app: 
   
-               python run.py
+               python app.py
                go to http://0.0.0.0:3001/
 
 
