@@ -11,18 +11,6 @@ To get a betther understand about creating an ETL Pipeline, NLP Pipelines and  M
 * 3. [Machine Learning Pipelines](https://github.com/A2Amir/Machine-Learning-Pipelines)
 
 
-### Link to Disasters Data Dashboard:
-
-
-
-<table align="center">
-	<tr>
-		<td align="center" width="9999">
-			<h2>https://covidspreadout.herokuapp.com</h2>
-		</td>
-	</tr>
-</table>
-
 # 2. Project Components
 
 There are three components for this project: 
