@@ -54,7 +54,7 @@ Below you can find the file structure of the project:
       | - template
       | |- master.html  # main page of web app
       | |- go.html  # classification result page of web app
-      |- run.py  # Flask file that runs app
+      |- __init__.py  # Intial Flask file that runs app
       |- routes.py # Flask route file
 
       - data
@@ -85,7 +85,7 @@ Run the following commands in the root directory of each file to set up your dat
     
   * To run ML pipeline that trains classifier and saves it: 
   
-               python train_classifier.py  --f1 ../data/DisasterResponse.db  --o classifier.joblib
+               python train_classifier.py  --f1 ../data/Database.db
                
   * Run the following command in the app's directory to run your web app: 
   
