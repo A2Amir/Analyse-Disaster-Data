@@ -72,7 +72,7 @@ Below you can find the file structure of the project:
       |- train_classifier.py
       |- utils.py 
       |- ML Pipeline Preparation.ipynb (details about crating the ML Pipeline)
-      |- classifier.pkl  # saved model 
+      |- model.pkl  # saved model 
       
       - README.md
       - app.py 
@@ -95,7 +95,7 @@ Run the following commands in the root directory of each file to set up your dat
   
                python app.py
                go to http://0.0.0.0:3001/
-
-
+	  
+  * To get more information about how to deploy this app to a cloud, go through the **Deploy the web app to the cloud** step in [this repository](https://github.com/A2Amir/COVID-19-Data-Dashboard).
          
          
