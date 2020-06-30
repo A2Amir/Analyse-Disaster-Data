@@ -54,6 +54,10 @@ Below you can find the file structure of the project:
       | - template
       | |- master.html  # main page of web app
       | |- go.html  # classification result page of web app
+      | - static
+      | |- imgs
+      | | |- githublogo.png 
+      | | |- linkedinlogo.png 
       |- __init__.py  # Intial Flask file that runs app
       |- routes.py # Flask route file
 
