@@ -86,4 +86,17 @@ Run the following commands in the root directory of each file to set up your dat
 	  
   * To get more information about how to deploy this app to a cloud, go through the **Deploy the web app to the cloud** step in [this repository](https://github.com/A2Amir/COVID-19-Data-Dashboard).
          
-         
+ 
+
+# 5. The screenshots of the web app.
+
+<table align="center">
+	<tr>
+	    <td align="center" width="9999">
+		<img src="./imgs/1.PNG"  weight="600" height="400"/>
+	   </td>
+           <td align="center" width="9999">
+		<img src="./imgs/2.PNG"  weight="600" height="400"/>
+	   </td>
+        </tr>
+</table>       
