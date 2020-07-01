@@ -72,7 +72,7 @@ Below you can find the file structure of the project:
       |- train_classifier.py
       |- utils.py 
       |- ML Pipeline Preparation.ipynb (details about crating the ML Pipeline)
-      |- model.pkl  # (the size of the trained model is to big , therefore i could not load it on the repo, please rerun thecode to get the trained model) saved model 
+      |- model.pkl  # (the size of the trained model is to big, therefore I could not load it on the repo, please rerun the train_classifier code to get the trained model) saved model 
       
       - README.md
       - app.py 
