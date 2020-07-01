@@ -10,8 +10,20 @@ To get a betther understand about creating an ETL Pipeline, NLP Pipelines and  M
 * 2. [NLP Pipelines](https://github.com/A2Amir/NLP-and-Pipelines)
 * 3. [Machine Learning Pipelines](https://github.com/A2Amir/Machine-Learning-Pipelines)
 
+# 2. Prerequisites
 
-# 2. Project Components
+To install the flask app, you need:
+
+    python3
+    python packages in the requirements.txt file
+
+Install the packages with
+
+    pip install -r requirements.txt
+    To create an environment using: conda create --name --file requirements.txt
+
+
+# 3. Project Components
 
 There are three components for this project: 
 
@@ -34,7 +46,7 @@ There are three components for this project:
 
 3. **Flask Web App:** I will create a web application, which use the trained model(the pickle file) to classify incoming messages where an emergency worker can input a new message and get classification results in several categories.
 
-# 3. Structure 
+# 4. Structure 
 Below you can find the file structure of the project:
 <pre><code class="lang-txt">
 
@@ -67,7 +79,7 @@ Below you can find the file structure of the project:
       
 </code></pre>
 
-# 4. Instructions for running the Python scripts
+# 5. Instructions for running the Python scripts
 
 Run the following commands in the root directory of each file to set up your database and model
 
@@ -88,7 +100,7 @@ Run the following commands in the root directory of each file to set up your dat
          
  
 
-# 5. The screenshots of the web app.
+# 6. The screenshots of the web app.
 
 <table align="center">
 	<tr>
