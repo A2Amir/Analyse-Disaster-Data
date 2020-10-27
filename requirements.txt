@@ -41,7 +41,7 @@ conda-verify==3.4.2
 constantly==15.1.0
 contextlib2==0.5.5
 contextvars==2.4
-cryptography==2.8
+cryptography==3.2
 cycler==0.10.0
 Cython==0.27.3
 cytoolz==0.10.1
