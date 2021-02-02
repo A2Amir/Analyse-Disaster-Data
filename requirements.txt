@@ -21,7 +21,7 @@ beautifulsoup4==4.9.1
 bitarray==0.8.1
 bkcharts==0.2
 black==19.10b0
-bleach==3.1.4
+bleach==3.3.0
 boto==2.48.0
 Bottleneck==1.2.1
 brewer2mpl==1.4.1
