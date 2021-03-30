@@ -171,7 +171,7 @@ pycparser==2.20
 pycrypto==2.6.1
 pycurl==7.43.0.1
 pyflakes==2.2.0
-Pygments==2.6.1
+Pygments==2.7.4
 PyHamcrest==2.0.0
 pylint==2.5.2
 pyodbc==4.0.22
