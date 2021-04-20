@@ -163,7 +163,7 @@ proglog==0.1.9
 prompt-toolkit==3.0.5
 psutil==5.7.0
 PuLP==2.0
-py==1.5.2
+py==1.10.0
 pycodestyle==2.6.0
 pycosat==0.6.3
 pycountry==19.8.18
