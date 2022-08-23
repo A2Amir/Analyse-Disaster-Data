@@ -126,7 +126,7 @@ mypy-extensions==0.4.3
 navigator-updater==0.1.0
 nb-black==1.0.7
 nb-clean==1.4.3
-nbconvert==5.6.1
+nbconvert==6.5.1
 nbformat==5.0.6
 networkx==2.4
 newsapi-python==0.2.6
